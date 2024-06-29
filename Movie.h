@@ -1,9 +1,9 @@
 /*****************************************************
- * @file   Movie.h                                    *
- * @author Paterakis Giorgos <geopat@csd.uoc.gr>     *
+ * @file   Movie.h                                   *
+ * @author Stylianos Tsirindanis <csd5124@csd.uoc.gr>*
  *                                                   *
  * @brief Header File for Data Structures (CS240b)   *
- * Project: Winter 2023						         *
+ * Project: Winter 2023				     *
  *****************************************************/
 #ifndef MOVIE_FILE
 #define MOVIE_FILE

@@ -1,6 +1,6 @@
 /*****************************************************
  * @file   Movie.c                                   *
- * @author Paterakis Giorgos <geopat@csd.uoc.gr>     *
+ * @author Stylianos Tsirindanis <csd5124@csd.uoc.gr>*
  *                                                   *
  * @brief Implementation for Movie.h 	      	     *
  * Project: Winter 2023				     *
