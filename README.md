@@ -11,19 +11,19 @@ These events were set by the proffesor and the proffesor's TAs and we were asked
 
 ## The events include :
 
-R <userID >                                  - Register user
-U < userID >                                 - Unregister user
-A <mid > <category> <year>                   - Add movie to database
-D                                            - Distribute movies based on their categories
-Ι <movieID> <category>                       - Search movie with ID "movieID" in the category "category"
-W <userID > <category><movieID> <score>      - Watch movie
-F <uid > <score>                             - Filter movies
-Q <userID>                                   - Average movie score the user has rated
-
-
-
+R <userID >                                  - Register user <br />
+U < userID >                                 - Unregister user <br />
+A <mid > <category> <year>                   - Add movie to database <br />
+D                                            - Distribute movies based on their categories <br />
+Ι <movieID> <category>                       - Search movie with ID "movieID" in the category "category" <br />
+W <userID > <category><movieID> <score>      - Watch movie <br />
+F <uid > <score>                             - Filter movies <br />
+Q <userID>                                   - Average movie score the user has rated <br />
+ <br />
+ <br />
+ <br />
 ## Events merged within the main function
-M                                            - Print movies
-P                                            - Print users
+M                                            - Print movies <br />
+P                                            - Print users <br />
 
 
