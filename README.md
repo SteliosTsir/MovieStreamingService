@@ -6,9 +6,8 @@ In this assignment, we were asked to develop a simplified movie streaming servic
 Users can register, watch movies, add them to their viewing history, and perform filtered searches within the categories. 
 To efficiently manage the data, data structures such as trees and a hash map were utilized.
 
-This program works by initializin the database using a file which is given by the user and then read by the program. The program is based on "events". 
-These events were set by the proffesor and the proffesor's TAs and we were asked to think the logic and use them in our programs.
-
+This program functions by initializing the database using a file provided by the user, which is subsequently read by the program. The program is structured around "events." These events were defined by the professor and the teaching assistants, and we were tasked with devising the logic and incorporating them into our programs.
+ <br />
 ## The events include :
 
 R <userID >                                  - Register user <br />
@@ -25,5 +24,6 @@ Q <userID>                                   - Average movie score the user has 
 ## Events merged within the main function
 M                                            - Print movies <br />
 P                                            - Print users <br />
-
-
+ <br />
+ <br />
+In conclusion, this assignment was designed to enhance our understanding of data structures, providing both an engaging and educational experience.
