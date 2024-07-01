@@ -27,21 +27,21 @@
 	nextNode->next = NULL;
 	nextNode->history = NULL;
 	
-	printf("eimai gkei");
-
 	/* Calculate index */
 	int index = userID % hashtable_size;
 
 	nextNode->next = user_hashtable_p[index]->next;
 	user_hashtable_p[index]->next = nextNode;
 	
-	printf("Chain <%d> of Users:\n", index);
-	user_t *temp = user_hashtable_p[index]->next;
-	while (temp != NULL){
-		printf("\t<%d>\n", temp->userID);
-		temp = temp->next;
+	if(loginfo){
+		printf("Chain <%d> of Users:\n", index);
+		user_t *temp = user_hashtable_p[index]->next;
+		while (temp != NULL){
+			printf("\t<%d>\n", temp->userID);
+			temp = temp->next;
+		}
+		printf("DONE\n");
 	}
-	printf("DONE\n");
 	return 1;
  }
  

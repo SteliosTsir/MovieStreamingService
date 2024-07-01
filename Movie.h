@@ -90,6 +90,7 @@ extern int hashtable_size;				   /* The size of the users hashtable, parsed from
 extern int max_users;					   /* The maximum number of registrations (users)*/			
 extern int max_id;   			   /* The maximum account ID */
 extern int primes_g[170];
+extern int loginfo;
 
 /**
  * @brief Creates a new user.
